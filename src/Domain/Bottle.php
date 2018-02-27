@@ -1,14 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vasil.dakov
- * Date: 21/02/2018
- * Time: 12:31
- */
 
-interface BottleInterface
+interface Bottle
 {
     /**
+     * The bottle name e.g. Ardbeg Very Young
+     *
      * @return string
      */
     public function name() : string;
@@ -19,7 +15,9 @@ interface BottleInterface
     public function description() : string;
 
     /**
-     * @return int  The total number of released bottles
+     * The total number of released bottles
+     *
+     * @return int
      */
     public function quantity() : ? int;
 
@@ -44,9 +42,9 @@ interface BottleInterface
     public function bottled() : DateTime;
 
     /**
-     * @return DistilleryInterface
+     * @return Distillery
      */
-    public function getDistillery() : DistilleryInterface;
+    public function distillery() : Distillery;
 
     /**
      * @return int e.g. 14
@@ -61,15 +59,15 @@ interface BottleInterface
     /**
      * @return mixed
      */
-    public function addPrice(PriceInterface $price);
+    public function addPrice(Price $price);
 
     /**
-     * @param AwardInterface $award
+     * @param Award $award
      */
-    public function addAward(AwardInterface $award) : void;
+    public function addAward(Award $award) : void;
 
     /**
-     * @return AwardInterface[]
+     * @return Award[]
      */
     public function getAwards() : array;
 }

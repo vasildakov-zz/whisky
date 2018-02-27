@@ -1,8 +1,19 @@
 <?php
 
-interface DistilleryInterface
+/**
+ * Interface Distillery
+ */
+interface Distillery
 {
+    /**
+     * @var int
+     */
     const STATUS_OPERATIONAL = 1;
+
+    /**
+     * @var int
+     */
+    const STATUS_CLOSED      = 2;
 
     /**
      * @return string e.g. The Macallan distillery
@@ -10,9 +21,9 @@ interface DistilleryInterface
     public function getName() : string;
 
     /**
-     * @return CompanyInterface e.g. Edrington Group
+     * @return Company e.g. Edrington Group
      */
-    public function getOwner() : CompanyInterface;
+    public function getOwner() : Company;
 
     /**
      * @return int  e.g. 1824
@@ -30,10 +41,10 @@ interface DistilleryInterface
     public function capacity() : int;
 
     /**
-     * @param BottleInterface $bottle
+     * @param Bottle $bottle
      * @return mixed
      */
-    public function addBottle(BottleInterface $bottle);
+    public function addBottle(Bottle $bottle);
 
     /**
      * @return array

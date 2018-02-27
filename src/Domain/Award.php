@@ -1,14 +1,17 @@
 <?php
 
-interface AwardInterface
+/**
+ * Interface Award
+ */
+interface Award
 {
     /**
      * @return string  e.g. San Francisco World Spirits Competition
      */
-    public function getName() : string;
+    public function name() : string;
 
     /**
      * @return int  e.g. 2018
      */
-    public function getYear() : int;
+    public function year() : int;
 }
