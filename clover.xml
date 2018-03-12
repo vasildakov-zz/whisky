@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1520855620">
+  <project timestamp="1520855620">
+    <package name="App">
+      <file name="/Users/vasil.dakov/Repos/vasil/whisky/src/App/src/ConfigProvider.php">
+        <class name="App\ConfigProvider" namespace="App">
+          <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
+        </class>
+        <line num="21" type="method" name="__invoke" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <line num="25" type="stmt" count="0"/>
+        <line num="32" type="method" name="getDependencies" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="47" type="method" name="getTemplates" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <metrics loc="57" ncloc="39" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="0" elements="7" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Handler">
+      <file name="/Users/vasil.dakov/Repos/vasil/whisky/src/App/src/Handler/HomePageHandler.php">
+        <class name="App\Handler\HomePageHandler" namespace="App\Handler">
+          <metrics complexity="9" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="14" elements="28" coveredelements="15"/>
+        </class>
+        <line num="24" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="26" type="stmt" count="4"/>
+        <line num="27" type="stmt" count="4"/>
+        <line num="28" type="stmt" count="4"/>
+        <line num="30" type="method" name="handle" visibility="public" complexity="8" crap="17.09" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="43" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="1"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="1"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="57" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="1"/>
+        <line num="59" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="1"/>
+        <metrics loc="65" ncloc="65" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="14" elements="28" coveredelements="15"/>
+      </file>
+      <file name="/Users/vasil.dakov/Repos/vasil/whisky/src/App/src/Handler/HomePageHandlerFactory.php">
+        <class name="App\Handler\HomePageHandlerFactory" namespace="App\Handler">
+          <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+        </class>
+        <line num="14" type="method" name="__invoke" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="18" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </file>
+      <file name="/Users/vasil.dakov/Repos/vasil/whisky/src/App/src/Handler/PingHandler.php">
+        <class name="App\Handler\PingHandler" namespace="App\Handler">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="handle" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <metrics files="4" loc="163" ncloc="145" classes="4" methods="7" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="20" elements="43" coveredelements="23"/>
+  </project>
+</coverage>
